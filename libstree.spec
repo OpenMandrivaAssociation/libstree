@@ -8,12 +8,12 @@
 Summary: 	A generic library for string algorithms based on suffix trees
 Name: 		libstree
 Version: 	0.4.2
-Release: 	%mkrel 4
+Release: 	%mkrel 5
 License: 	BSD
 Group: 		Development/Other
 URL: 		http://www.cl.cam.ac.uk/~cpk25/libstree/index.html
 Source0: 	http://www.cl.cam.ac.uk/~cpk25/downloads/%{name}-%{version}.tar.bz2
-BuildRequires:	autoconf2.5
+BuildRequires:	autoconf
 BuildRequires:	libtool
 Buildroot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
@@ -48,7 +48,7 @@ applications which will use %{name}.
 %package -n	%{staticdevelname}
 Summary:	Static %{libname} library
 Group:		Development/C
-Requires:	%{libname}-devel = %{version}
+Requires:	%{develname}-devel = %{version}
 Provides:	libstree-static-devel = %{version}-%{release}
 Obsoletes:	%{mklibname %{rname} 0 -s -d}
 
