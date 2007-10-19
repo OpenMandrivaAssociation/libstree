@@ -48,7 +48,7 @@ applications which will use %{name}.
 %package -n	%{staticdevelname}
 Summary:	Static %{libname} library
 Group:		Development/C
-Requires:	%{develname}-devel = %{version}
+Requires:	%{develname} = %{version}
 Provides:	libstree-static-devel = %{version}-%{release}
 Obsoletes:	%{mklibname %{rname} 0 -s -d}
 
