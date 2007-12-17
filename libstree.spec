@@ -15,7 +15,6 @@ URL: 		http://www.cl.cam.ac.uk/~cpk25/libstree/index.html
 Source0: 	http://www.cl.cam.ac.uk/~cpk25/downloads/%{name}-%{version}.tar.bz2
 BuildRequires:	autoconf
 BuildRequires:	libtool
-Buildroot: 	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 LibSTree is a library containing generic versions of string
