@@ -8,7 +8,7 @@
 Summary: 	A generic library for string algorithms based on suffix trees
 Name: 		libstree
 Version: 	0.4.2
-Release: 	%mkrel 5
+Release: 	%mkrel 6
 License: 	BSD
 Group: 		Development/Other
 URL: 		http://www.cl.cam.ac.uk/~cpk25/libstree/index.html
@@ -68,7 +68,7 @@ Static %{libname} library.
 %make
 
 %install
-[ "%{buildroot}" != "/" ] && rm -rf %{buildroot}
+rm -rf %{buildroot}
 
 %makeinstall_std
 
@@ -81,7 +81,7 @@ Static %{libname} library.
 %endif
 
 %clean
-[ "%{buildroot}" != "/" ] && rm -rf %{buildroot}
+rm -rf %{buildroot}
 
 %files -n %{libname}
 %defattr(0644,root,root,0755)
