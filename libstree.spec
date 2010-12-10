@@ -8,7 +8,7 @@
 Summary: 	A generic library for string algorithms based on suffix trees
 Name: 		libstree
 Version: 	0.4.2
-Release: 	%mkrel 7
+Release: 	%mkrel 8
 License: 	BSD
 Group: 		Development/Other
 URL: 		http://www.cl.cam.ac.uk/~cpk25/libstree/index.html
