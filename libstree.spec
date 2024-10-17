@@ -11,7 +11,7 @@ Version: 	0.4.2
 Release: 	9
 License: 	BSD
 Group: 		Development/Other
-URL: 		http://www.cl.cam.ac.uk/~cpk25/libstree/index.html
+URL: 		https://www.cl.cam.ac.uk/~cpk25/libstree/index.html
 Source0: 	http://www.cl.cam.ac.uk/~cpk25/downloads/%{name}-%{version}.tar.bz2
 BuildRequires:	autoconf
 BuildRequires:	libtool
